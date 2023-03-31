@@ -15,7 +15,7 @@ namespace PhamDaiTruong_2011069041.Viewmodels
         [ValidTime]
         public string Time { get; set; }
         [Required]
-        [FutureDate]
+        //[FutureDate]
         public string Date { get; set; }
         [Required]
         public byte Category { get; set; }
